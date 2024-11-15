@@ -21,9 +21,9 @@ export default {
 
 <template>
   <div class="horizontal-grid">
-    <TopBar/>
+    <TopBar v-if="$route.meta.showUI"/>
     <div class="vertical-grid">
-      <SideBar/>
+      <SideBar v-if="$route.meta.showUI"/>
       <div class="content-wrapp">
         <RouterView/>
       </div>

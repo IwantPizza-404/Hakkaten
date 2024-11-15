@@ -62,6 +62,7 @@ button{
   border: none;
   cursor: pointer;
   padding: 0;
+  color: var(--text-color);
 }
 
 a{
