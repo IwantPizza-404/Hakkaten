@@ -1,0 +1,70 @@
+@font-face{
+  font-family: Nunito;
+  src: url('@/assets/fonts/Nunito.ttf');
+}
+
+:root {
+  --bg-color: #0A0B0B;
+  --text-color: #fff;
+  --light-text-color: #A0A0A0;
+  --accent-1-color: #BBFF49;
+  --accent-2-color: #732AEF;
+  --border-color: #3E4142;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, button, input {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Nunito;
+}
+
+input{
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+b{
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
