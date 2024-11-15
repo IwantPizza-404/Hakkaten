@@ -13,9 +13,9 @@ export default{
 <template>
     <header class="header">
         <div class="header-wrapp">
-            <div class="header-logo">
+            <a class="header-logo" href="/">
                 <Logo/>
-            </div>
+            </a>
             <div class="search-container">
                 <label class="search-field" for="main-search">
                     <div class="search_icon">
